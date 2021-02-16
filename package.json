@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-utils-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaobo530/nodejs-utils-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaobo530/nodejs-utils-demo/issues"
+  },
+  "homepage": "https://github.com/xiaobo530/nodejs-utils-demo#readme",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "js-yaml": "^4.0.0",
+    "jsonfile": "^6.1.0",
+    "parse-json": "^5.2.0",
+    "semver": "^7.3.4",
+    "yaml": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.7",
+    "@types/js-yaml": "^4.0.0",
+    "@types/jsonfile": "^6.0.0",
+    "@types/node": "^14.14.28",
+    "@types/parse-json": "^4.0.0",
+    "@types/semver": "^7.3.4",
+    "@types/yaml": "^1.9.7"
+  }
+}

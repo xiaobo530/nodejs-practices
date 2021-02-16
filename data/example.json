@@ -1,0 +1,12 @@
+{
+    "title": "Sample title",
+    "description": "Sample description",
+    "spec": "http://example.com/path/to/spec.html",
+    "status": "wd",
+    "links": [
+        {
+            "url": "http://example.com/path/to/link.html",
+            "title": "Link title"
+        }
+    ]
+}
