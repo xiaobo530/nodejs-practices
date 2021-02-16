@@ -22,6 +22,7 @@
     "jsonfile": "^6.1.0",
     "parse-json": "^5.2.0",
     "semver": "^7.3.4",
+    "serialize-javascript": "^5.0.1",
     "yaml": "^1.10.0"
   },
   "devDependencies": {
@@ -31,6 +32,7 @@
     "@types/node": "^14.14.28",
     "@types/parse-json": "^4.0.0",
     "@types/semver": "^7.3.4",
+    "@types/serialize-javascript": "^5.0.0",
     "@types/yaml": "^1.9.7"
   }
 }

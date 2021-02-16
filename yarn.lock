@@ -57,6 +57,11 @@
   resolved "https://registry.npm.taobao.org/@types/semver/download/@types/semver-7.3.4.tgz?cache=0&sync_timestamp=1613384597875&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fsemver%2Fdownload%2F%40types%2Fsemver-7.3.4.tgz#43d7168fec6fa0988bb1a513a697b29296721afb"
   integrity sha1-Q9cWj+xvoJiLsaUTppeykpZyGvs=
 
+"@types/serialize-javascript@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.npm.taobao.org/@types/serialize-javascript/download/@types/serialize-javascript-5.0.0.tgz#127638567bd9f11251ad0ca2d9d9ea9ce5ca4b93"
+  integrity sha1-EnY4VnvZ8RJRrQyi2dnqnOXKS5M=
+
 "@types/yaml@^1.9.7":
   version "1.9.7"
   resolved "https://registry.npm.taobao.org/@types/yaml/download/@types/yaml-1.9.7.tgz#2331f36e0aac91311a63d33eb026c21687729679"
@@ -187,12 +192,31 @@ parse-json@^5.2.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
+randombytes@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/randombytes/download/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
+  integrity sha1-32+ENy8CcNxlzfYpE0mrekc9Tyo=
+  dependencies:
+    safe-buffer "^5.1.0"
+
+safe-buffer@^5.1.0:
+  version "5.2.1"
+  resolved "https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
+
 semver@^7.3.4:
   version "7.3.4"
   resolved "https://registry.npm.taobao.org/semver/download/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
   integrity sha1-J6qn0uTKdkUvmNOt0JOnLJQ+3Jc=
   dependencies:
     lru-cache "^6.0.0"
+
+serialize-javascript@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npm.taobao.org/serialize-javascript/download/serialize-javascript-5.0.1.tgz#7886ec848049a462467a97d3d918ebb2aaf934f4"
+  integrity sha1-eIbshIBJpGJGepfT2Rjrsqr5NPQ=
+  dependencies:
+    randombytes "^2.1.0"
 
 supports-color@^5.3.0:
   version "5.5.0"
