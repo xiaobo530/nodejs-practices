@@ -7,7 +7,7 @@ fs.realpath('.').then(val => {
 });
 
 fs.readdir('.').then(dirs => {
-    dirs.forEach(async dir=>{
+    dirs.forEach(async dir => {
         const dd = await fs.realpath(dir);
         console.log(dd);
     })
@@ -21,4 +21,8 @@ fs.readJson('./data/example.json')
     .catch(err => {
         console.error(err)
     })
+
+fs.ensureDir('./output');
+
+fs.createReadStream('./data/example.json').pipe(fs.createWriteStream('./output/example.json'));
 
