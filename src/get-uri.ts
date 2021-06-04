@@ -1,21 +1,27 @@
 import getURI from 'get-uri';
 
-function getHttps() {
+// Install
+// yarn add get-uri -S
+
+
+// Run
+// ts-node src/get-uri.ts
+
+
+async function getHttpPage() {
+    const uri = "https://www.baidu.com/";
+    const readable = await getURI(uri);
+    readable.pipe(process.stdout);
+}
+
+getHttpPage();
+
+async function getHttpFile() {
     const uri = "https://hub.fastgit.org/lorenwest/node-config/blob/master/README.md";
-    getURI(uri).then(readable => {
-        readable.pipe(process.stdout);
-        // readable.on('data', (chunk) => {
-        //     // console.log(`接收到 ${chunk.length} 个字节的数据`);
-        //     console.log(chunk.toString());
-        // });
-        // readable.on('end', () => {
-        //     console.log('已没有数据');
-        // });
-    })
+    const readable = await getURI(uri);
+    readable.pipe(process.stdout);
 }
 
-function get(params:type) {
-    
-}
+getHttpFile();
 
-getHttps();
+
