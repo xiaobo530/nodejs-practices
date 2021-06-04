@@ -1,0 +1,24 @@
+
+dbConfig:
+  host: localhost
+  port: 5984
+  dbName: customers
+bob-config:
+  key: value
+  array-str:
+    - abc
+    - 123
+    - 456
+    - xyz
+  array-obj:
+    - name: abc
+      age: 20  
+    - name: xyz
+      age: 18
+    - name: abc
+      age: 26
+
+
+
+
+
